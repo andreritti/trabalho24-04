@@ -29,3 +29,11 @@ button:hover {
     margin: auto;
     box-align: center;
 }
+
+.aaa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} so assim pra centraliza n consegui de outro jeito
