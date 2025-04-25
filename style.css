@@ -23,5 +23,8 @@ button:hover {
 }
 
 #quadrado {
-    
+    width: 100px;
+    height: 100px;
+    background-color: #ADD8E6;
+    margin: auto;
 }
