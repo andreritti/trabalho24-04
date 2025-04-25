@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="quadrado" onmouseover="mudarCor()" onmouseover="voltarCorNormal()"></div>
+
+    <script>
+        function mudarCor() {
+            document.getElementById("quadrado").style.backgroundColor = "#ADD8E6"
+        }
+        function voltarCorNormal() {
+            document.getElementById("quadrado").style.backgroundColor = "#87CEEB"
+        }
+    </script>
+
+    <button onclick="location.href'index4.html'">Voltar</button>
 </body>
 </html>
